@@ -1,0 +1,84 @@
+.floor-plan-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.floor-plan-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+input, select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.room-inputs {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.add-room-btn, .remove-room-btn, .generate-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-room-btn {
+  background: #4CAF50;
+  color: white;
+}
+
+.remove-room-btn {
+  background: #f44336;
+  color: white;
+  margin-top: 10px;
+}
+
+.generate-btn {
+  background: #2196F3;
+  color: white;
+  font-size: 16px;
+}
+
+.floor-plan-result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.floor-plan-result img {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+} 
