@@ -1,0 +1,100 @@
+.vastu-form-container {
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .form-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+  }
+  
+  .form-input,
+  .form-select {
+    padding: 0.5rem;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  .form-input:focus,
+  .form-select:focus {
+    outline: none;
+    border-color: #2563eb;
+    box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.1);
+  }
+  
+  .error-message {
+    background-color: #fee2e2;
+    border: 1px solid #ef4444;
+    padding: 0.75rem;
+    border-radius: 4px;
+    color: #dc2626;
+    font-size: 0.875rem;
+  }
+  
+  .submit-button {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .submit-button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  .submit-button:disabled {
+    background-color: #93c5fd;
+    cursor: not-allowed;
+  }
